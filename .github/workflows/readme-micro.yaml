@@ -19,4 +19,3 @@ jobs:
           BASE_URL: ${{ vars.BASE_URL }}
         with:
           readme-micro: "'**/*.{yaml,yml,json}' --key=${{ secrets.README_MICRO_SECRET }}"
-
